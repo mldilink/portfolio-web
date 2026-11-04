@@ -257,6 +257,8 @@
     @apply bg-background text-foreground;
     font-family: 'Inter', Arial, sans-serif;
     font-weight: 400;
+    background-color: var(--color-black);
+    color: var(--color-white);
   }
 
   button,
@@ -274,5 +276,25 @@
   svg {
     display: block;
     max-width: 100%;
+  }
+}
+
+@keyframes navbar-open {
+  from {
+    height: 3rem;
+  }
+
+  to {
+    height: calc(100dvh - 2rem);
+  }
+}
+
+@keyframes navbar-close {
+  from {
+    height: calc(100dvh - 2rem);
+  }
+
+  to {
+    height: 3rem;
   }
 }

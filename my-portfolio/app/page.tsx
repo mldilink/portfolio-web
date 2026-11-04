@@ -1,3 +1,9 @@
+import { Navbar } from '@/components/layout/navbar';
+
 export default function Home() {
-  return <main>{/* Portfolio sections will be added here */}</main>;
+  return (
+    <main>
+      <Navbar />
+    </main>
+  );
 }
