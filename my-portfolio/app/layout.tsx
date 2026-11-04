@@ -1,5 +1,12 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import { Charm } from 'next/font/google';
+
+const charm = Charm({
+  subsets: ['latin'],
+  weight: '400',
+  variable: '--font-charm',
+});
 
 export const metadata: Metadata = {
   title: 'Portfolio',
@@ -13,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body>{children}</body>
+      <body className={charm.variable}>{children}</body>
     </html>
   );
 }

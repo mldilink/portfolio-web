@@ -34,7 +34,7 @@ export function Navbar() {
       <nav
         className={`relative flex items-center justify-between overflow-hidden md:gap-6 md:bg-black/20 md:px-6 ${
           isOpen
-            ? 'w-full items-start rounded-2xl bg-black/40 p-4'
+            ? 'w-full items-start rounded-2xl bg-black/40 backdrop-blur-lg p-4'
             : 'h-12 w-full rounded-full bg-black/40 px-4'
         } ${
           isClosing
