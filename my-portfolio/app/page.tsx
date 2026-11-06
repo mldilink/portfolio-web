@@ -6,6 +6,7 @@ import { Hero } from '@/components/sections/hero';
 import { Portfolio } from '@/components/sections/portfolio';
 import { Expertise } from '@/components/sections/service';
 import { Skills } from '@/components/sections/skills';
+import Testimonials from '@/components/sections/testimonials';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Comparison />
       <Portfolio />
       <Experience />
+      <Testimonials />
     </main>
   );
 }
