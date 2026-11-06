@@ -1,5 +1,6 @@
 import { Navbar } from '@/components/layout/navbar';
 import { About } from '@/components/sections/about';
+import { Comparison } from '@/components/sections/comparison';
 import { Hero } from '@/components/sections/hero';
 import { Expertise } from '@/components/sections/service';
 import { Skills } from '@/components/sections/skills';
@@ -12,6 +13,7 @@ export default function Home() {
       <Expertise />
       <About />
       <Skills />
+      <Comparison />
     </main>
   );
 }
