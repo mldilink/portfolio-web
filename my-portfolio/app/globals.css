@@ -298,3 +298,24 @@
     height: 3rem;
   }
 }
+
+@keyframes expertise-marquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.expertise-marquee {
+  animation: expertise-marquee 25s linear infinite;
+  will-change: transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .expertise-marquee {
+    animation: none;
+  }
+}
