@@ -1,6 +1,7 @@
 import { Navbar } from '@/components/layout/navbar';
 import { About } from '@/components/sections/about';
 import { Comparison } from '@/components/sections/comparison';
+import Contact from '@/components/sections/contact';
 import { Experience } from '@/components/sections/experience';
 import FAQ from '@/components/sections/faq';
 import { Hero } from '@/components/sections/hero';
@@ -22,6 +23,7 @@ export default function Home() {
       <Experience />
       <Testimonials />
       <FAQ />
+      <Contact />
     </main>
   );
 }

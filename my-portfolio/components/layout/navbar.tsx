@@ -46,7 +46,7 @@ export function Navbar() {
       >
         {/* Logo */}
         <a href='#home' className='text-xl font-bold text-white md:w-15'>
-          Adi
+          Edwin
         </a>
 
         {/* Desktop Navigation */}

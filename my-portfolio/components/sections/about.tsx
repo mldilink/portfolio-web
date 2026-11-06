@@ -36,7 +36,7 @@ const socialLinks = [
 
 export function About() {
   return (
-    <section className='bg-black px-4 py-10 md:px-8 md:py-20'>
+    <section id='about' className='bg-black px-4 py-10 md:px-8 md:py-20'>
       <div className='mx-auto flex w-full max-w-300 flex-col gap-6 md:gap-12'>
         {/* Introduction */}
         <div className='flex flex-col gap-6 md:flex-row md:justify-between md:gap-8'>

@@ -11,7 +11,7 @@ const skills = [
 
 export function Skills() {
   return (
-    <section className='bg-black px-4 py-10 md:px-30 md:py-20'>
+    <section id='skill' className='bg-black px-4 py-10 md:px-30 md:py-20'>
       <div className='mx-auto flex w-full max-w-300 flex-col gap-6 md:flex-row md:items-start md:justify-between md:gap-8'>
         {/* Introduction */}
         <div className='flex w-full flex-col gap-6 md:min-h-132.25 md:max-w-91.75 md:justify-between'>

@@ -20,7 +20,7 @@ const projects = [
 
 export function Portfolio() {
   return (
-    <section className='bg-black px-4 py-10 md:px-30 md:py-20'>
+    <section id='projects' className='bg-black px-4 py-10 md:px-30 md:py-20'>
       <div className='mx-auto flex w-full max-w-300 flex-col items-center gap-6 md:gap-12'>
         {/* Heading */}
         <div className='flex w-full max-w-88.25 flex-col items-center gap-2 text-center md:max-w-300 md:gap-4'>

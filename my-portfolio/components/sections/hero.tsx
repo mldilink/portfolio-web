@@ -50,7 +50,7 @@ export function Hero() {
           {/* Introduction */}
           <div className='flex w-full flex-col items-start gap-4 md:gap-8'>
             <p className='text-base leading-7.5 tracking-[-0.03em] text-neutral-25 md:text-xl md:leading-8.5'>
-              Hi. I’m Adi Mauludi
+              Hi. I’m Edwin Anderson
             </p>
 
             {/* Heading */}
